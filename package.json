@@ -1,0 +1,36 @@
+{
+  "name": "dsgov-identity-functions",
+  "version": "0.1.0",
+  "description": "Simple HTTP example for GCP functions by Serverless framework with Typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "gcp-build": "npm run build",
+    "deploy": "",
+    "test": "jest",
+    "license-check": "license-checker --production --summary --onlyAllow 'MIT;BSD-3-Clause;BSD-2-Clause;Apache-2.0;ISC' --excludePackages 'dsgov-identity-functions@0.1.0'",
+    "license-report-all-unallowed": "license-checker --production --exclude 'MIT,BSD-3-Clause,BSD-2-Clause,Apache-2.0,ISC' --excludePackages 'dsgov-identity-functions@0.1.0'"
+  },
+  "author": "Nuvalence",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/memory-cache": "^0.2.2",
+    "@types/node": "^20.11.24",
+    "@types/node-fetch": "^2.6.3",
+    "@types/uuid": "^9.0.8",
+    "googleapis": "^111.0.0",
+    "jest": "^29.4.3",
+    "license-checker": "^25.0.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "gcip-cloud-functions": "^0.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "memory-cache": "^0.2.0",
+    "node-fetch": "^2.6.11",
+    "uuid": "^9.0.1",
+    "winston": "^3.8.2"
+  }
+}
