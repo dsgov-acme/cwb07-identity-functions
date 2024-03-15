@@ -1,4 +1,4 @@
-project                  = "cwb07-dev"
+project                  = "cwb07-dev-ac55"
 project_prefix           = "cwb07"
 region                   = "us-west1"
 environment              = "dev"
